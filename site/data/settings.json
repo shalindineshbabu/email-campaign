@@ -1,0 +1,45 @@
+{
+	"siteName": "Site Name",
+	"headerLogo": "images/logo.jpg",
+	"headerLogoLink": "https://www.us-immigration.com?referrer=e_greenmonday_en_none_01_multi_n&utm_source=aic&utm_medium=email&utm_term=none&utm_content=e_greenmonday_en_none_01_multi_n&utm_campaign=eblast&emailid=%%EMAIL%%",
+	"tableStyle": "margin:0 auto; padding:0; border-spacing:0; border-collapse:collapse;",
+	"footer": {
+		"backgroundColor": "#2a4f8c",
+		"disclaimerStyle": "padding:0 50px; font-family:Arial; font-size:12px; color:#dedede; font-weight:normal; line-height:15px; text-align:justify;",
+		"copy": {
+			"footerNav": "<a style='color: #8cbcff; text-decoration: underline;' href='#'>Unsubscribe</a> <span style='padding: 0 5px; display: inline-block;'> | </span> <a style='color: #8cbcff; text-decoration: underline;' href='#'>Update My Preferences</a>",
+			"promotionalFee":"*Promotional fee reduction applies to preparation fee only and does not apply to any applicable government filing fees.",
+			"registeredEmail": "You are receiving this email because your email %%EMAIL%% was registered on <a href='#' style='color: #efefef; text-decoration: none; cursor: text;'>US-Immigration.com</a> on %%Signup Date%%.",
+			"disclaimer": "<span style='font-weight:bold; color:#fff;'>Disclaimer: <a href='#' style='color:#fff; text-decoration:none; cursor:text;'>US-Immigration.com</a> is not a government agency. If you are just looking for forms, you can get them from the  <a href='#' style='color:#fff; text-decoration:none; cursor:text;'>USCIS.gov</a> website for free. <a href='#' style='color:#8cbcff; text-decoration:underline; cursor:text; font-weight:bold;'>US-IMMIGRATION.COM</a> does not sell, recommend or select USCIS forms, nor does it provide answers to specific questions on forms. <a href='#' style='color:#fff; text-decoration:none; cursor:text;')US-Immigration.com</a> is not a law firm nor a substitute for the advice of an attorney, and communications between <a href='#' style='color: #fff; text-decoration: none; cursor: text;'>US-Immigration.com</a> and you are not protected by any privilege. <a href='#' style='color:#fff; text-decoration:none; cursor:text;'>US-Immigration.com</a> provides a complete and easy to use self-help online immigration software solution at a user’s direction only</span>. We help you complete your application quickly and accurately, provide 24/7 customer support, and automatically generate all the forms you need for your application - ready to submit to the USCIS by you. The information on this site, however, should not be relied on to reach any conclusions about any person's specific situation. Customer support will not answer legal questions. It is for technical and billing issues only. <span style='font-weight:bold; color:#ffffff;'>Purchase price does not include government agency application or filing fees,</span> if applicable. The <span style='font-weight:bold; color:#fff;')refund policy</span> is found in <a href='#' style='color:#dedede; text-decoration:none; cursor:text;')US-Immigration.com’s</a> Terms and Conditions linked to this website. Your access to and use of this website, and any purchase you make from it, are subject to those Terms and Conditions. By using this site and/or making any purchase, you agree to the <a href='https://www.us-immigration.com/conditions.jsp?' style='color:#8abbff; text-decoration:underline;'>Terms and Conditions</a>.",
+			"address": "<span>American Immigration Center Inc.</span> <span>1101 Brickell Ave S-800,</span> <span>Miami FL, 33131</span>",
+			"privacy": "<a name='PrivacyPolicy' href='https://www.us-immigration.com/privacy.jsp' style='text-decoration:underline; color:#8cbcff;'>Privacy Policy</a>"
+		}
+	},
+	"emailCall": {
+		"backgroundColor": "#dedede",
+		"color": "#333",
+		"copyStyle": "padding:0 0 3px; mso-line-height-rule:exactly; line-height:17px; font-family: Arial; color: #333; text-align: left; vertical-align: middle; text-transform: uppercase;",
+		"needHelp": "Need Help?",
+		"tel": "866-320-3571",
+		"copy": {
+			"csNumber": {
+				"style": "font-weight:bold; font-size:17px;padding-bottom: 5px;",
+				"text": "Call ",
+				"tel": "866-320-3571"
+			},
+			"workHoursWeekDays": {
+				"style": "font-size:13px;",
+				"text": "Monday - Friday: 6 a.m. - 8 p.m. PST"
+			},
+			"workHoursWeekEnds": {
+				"style": "font-size:13px;",
+				"text": "Saturday: 8 a.m. - 5 p.m. PST | Sunday: Closed"
+			},
+			"reference": {
+				"style": "font-weight: bold;font-size:14px;text-transform:none",
+				"text": "Reference # 000000"
+			}
+		}
+	},
+	"contentBgColor": "#fff"
+}

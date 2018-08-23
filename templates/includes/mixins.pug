@@ -1,0 +1,43 @@
+//- Email Footer
+mixin emailFooter(data)
+	table.e__footer(style=`${settings.tableStyle} background-color: ${data.backgroundColor};`  width='600' cellspacing='0' cellpadding='0' border='0')
+		tbody
+			+copySpacing(data.backgroundColor)
+			each item,index in data.copy
+				tr
+					td(style=data.disclaimerStyle)!= item
+				+copySpacing(data.backgroundColor)
+
+//- Email Call
+mixin emailCall(data)
+	table(style=`background-color:${data.backgroundColor}; width:570px; margin: 0; padding: 0; border-collapse:collapse; border-spacing:0; border:none;` cellspacing="0" cellpadding="0")
+		tbody
+			tr
+				td(style="width: 200px; padding :0 15px;vertical-align:middle")
+					table(style="margin: 0; padding: 0; border-collapse:collapse; border-spacing:0; border:none;" cellspacing="0" cellpadding="0")
+						tbody
+							tr
+								td(style="width: 130px; padding:0 10px 0 0; mso-line-height-rule:exactly; line-height:23px; font-size: 19px; font-family: Arial; color: #333333; font-weight: bold; text-align: right; vertical-align: middle; text-transform: uppercase;")= data.needHelp
+								td(style="width: 48px; padding :0;")
+									a(name="Phone_image" href=`tel:${data.tel}` title="Call" style="color:#dedede; font-family:Times new roman, arial; text-decoration:none;")
+										img(alt="Call" src=assets('images/phone-icon.jpg') style="vertical-align:middle; border:none; display:inline-block;" width="48")
+				td(style="width: 340px; padding :10px 0 5px;")
+					table(style="margin: 0; padding: 0; border-collapse:collapse; border-spacing:0; border:none;" cellspacing="0" cellpadding="0")
+						tbody
+							each item, index in data.copy
+								tr
+									if(item.tel)
+										td(style=data.copyStyle + item.style)= item.text 
+											a(href=`tel:${item.tel}` style=`color: ${data.color}; text-decoration: none;`)= item.tel
+									else
+										td(style=data.copyStyle + item.style)= item.text
+			tr
+				td(style="padding :0; mso-line-height-rule:exactly; line-height:5px; font-size: 1px; background-color: #c10000;")  
+				td(style="padding :0; mso-line-height-rule:exactly; line-height:5px; font-size: 1px; background-color: #c10000;")   
+
+
+
+//- Add space between the table rows
+mixin copySpacing(bgColor)
+	tr
+		td(style=`background-color: ${bgColor}; padding:0; mso-line-height-rule:exactly; line-height:15px; font-size:15px;`) &nbsp;
