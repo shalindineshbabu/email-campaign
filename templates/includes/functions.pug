@@ -1,0 +1,16 @@
+//- JS functions
+//- /common/templates/includes/functions.pug
+//- @see /common/templates/layout.pug
+
+- 
+  /**
+  * Prepend assets directory and add version number to break cache
+  * allows to easily change assets directory
+  * 
+  * @param asset_path string, asset relative path
+  * @return string asset path to assets-static directory
+  */
+  
+  function assets(asset_path) { 
+    return '/#{assetsdir}/' + asset_path + '?v=#{version}'
+  }

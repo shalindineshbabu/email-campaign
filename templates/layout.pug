@@ -1,0 +1,22 @@
+//- Main template layout
+
+doctype html
+html(lang=locale)
+	head
+		include includes/functions
+		include includes/mixins
+		block meta
+			include includes/meta
+		block asset-links
+			include includes/asset-links
+	body(style="background-color:#e6e5e5;margin: 0;")
+		block e-header
+			include includes/e-header
+		block e-hero
+			include includes/e-hero
+		block e-content
+			include includes/e-content
+		block e-call
+			include includes/e-call
+		block e-footer
+			include includes/e-footer

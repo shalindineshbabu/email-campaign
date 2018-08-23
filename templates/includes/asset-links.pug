@@ -1,0 +1,6 @@
+//- load inline styles
+	style=inline
+	
+//- When developing for IE8 or bellow, livereload needs to be disabled.
+if (process.env.NODE_ENV == 'development')
+	script(type='text/javascript', src='http://localhost:35729/livereload.js')
